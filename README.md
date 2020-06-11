@@ -18,8 +18,11 @@ para ejecutar la aplicación se puede usar el comando
 el cual levanta los servicios a consumir en las siguientes URLs de ejemplo
 
 GET http://localhost:8080/users  -> lista todos los usuarios
+
 GET http://localhost:8080/users/email  -> lista el usuario con el email especificado
+
 POST http://localhost:8080/users -> recibe un content-type application/json y crea el usuario.
+
 Ejemplo json :
 {
   "id": 1,
@@ -30,4 +33,5 @@ Ejemplo json :
 }
 
 GET http://localhost:8080/apicall?param=1-9 -> llama a la api externa
+
 
